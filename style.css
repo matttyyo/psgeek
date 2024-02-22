@@ -1,0 +1,33 @@
+* {
+  color: white;
+  background: black;
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+#logo {
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Creates a 4-column layout */
+  grid-gap: 10px; /* Adjusts the gap between grid items */
+  width: 100%; /* Ensures the grid takes up the full width */
+}
+
+.grid-item a {
+  text-align: center;
+}
+
+.grid-item img {
+  width: 50%; /* Makes the image fill the container */
+  height: auto; /* Keeps the image aspect ratio intact */
+}
+
+/* Add more styling here as needed */
